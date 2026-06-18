@@ -10,7 +10,7 @@ jdk 'JDK'
 stages{
 stage('Checkout'){
 steps{
-git branch:'main' url:'https://github.com/Darshan429/final2.git'
+git branch:'main' ,url:'https://github.com/Darshan429/final2.git'
 }
 }
 stage('Build'){
